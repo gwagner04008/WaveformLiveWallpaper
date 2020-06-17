@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:key="MySettings">
+
+    <PreferenceCategory
+        app:title="@string/live_wallpaper_settings">
+
+        <ListPreference
+            app:key="color_selection"
+            app:title="Color Selection"
+            app:summary="Select between multiple colors to customize your theme"
+            app:entries="@array/theme_names"
+            app:entryValues="@array/theme_name_values" />
+
+        <ListPreference
+            app:key="style_selection"
+            app:title="Style Selection"
+            app:summary="Select between multiple styles to customize your theme"
+            app:entries="@array/wave_style_names"
+            app:entryValues="@array/wave_style_name_values" />
+
+        <Preference
+            app:key="toastMsg"
+            app:title="Preview theme" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
