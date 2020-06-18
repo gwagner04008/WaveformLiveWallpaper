@@ -27,7 +27,7 @@ public class AudioLiveWallpaperActivity extends WallpaperService {
 	private int SIZE_FFT = 1024;
 	private double[] mic_data = new double[SIZE_FFT / 2];
 	private double[] mic_data_prev = new double[SIZE_FFT / 2];
-	private com.livewallpaper.audio.FFT fft = new com.livewallpaper.audio.FFT(SIZE_FFT);
+	private com.jackdog.waveformlivewallpaper.FFT fft = new com.jackdog.waveformlivewallpaper.FFT(SIZE_FFT);
 	private int buffer_size;
 	public static String CurrentTheme = "reflection";
 	public static String CurrentColor = "blue";

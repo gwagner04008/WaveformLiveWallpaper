@@ -1,4 +1,4 @@
-package com.livewallpaper.audio;
+package com.jackdog.waveformlivewallpaper;
 
 public class FFT {
 
